@@ -7,7 +7,7 @@ def join_nested_strings(src)
   inner = 0;
   while inner<src[index].length do
  if src[index][inner].class == String 
-   total = total + src[index][inner]
+   total = total + ' ' + src[index][inner]
   end
  inner+=1;   
   end
