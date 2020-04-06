@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while index<src.length do
   inner = 0;
   while inner<src[index].length do
- if src[index][inner].
+ if src[index][inner].class == String
  inner+=1;   
   end
   index+=1;
