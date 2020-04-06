@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while index<src.length do
   inner = 0;
   while inner<src[index].length do
- total+=src[index][inner]
+ total+=src[index][inner].to_s
  inner+=1;   
   end
   index+=1;
